@@ -1,11 +1,12 @@
 import React from 'react';
 import {ReactTyped} from 'react-typed'
 import './Hero.css'
+import HeroImg from '/public/profileImg.png'
 const Hero = () => {
   return (
     <div className="bg-black text-white text-center hero-section">
       <img
-        src='/public/profileImg.png'
+        src={HeroImg}
         alt=""
         className="mx-auto mb-8 rounded-circle"
         style={{

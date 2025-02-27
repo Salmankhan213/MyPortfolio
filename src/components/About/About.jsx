@@ -1,4 +1,5 @@
 import React from "react";
+import HeroImg from '/public/profileImg.png'
 
 const About = () => {
   return (
@@ -12,7 +13,7 @@ const About = () => {
         <div className="row">
           <div className="col-md-3 mb-4 mb-md-0 offset-1">
             <img
-              src="/public/profileImg.png"
+              src={HeroImg}
               alt=""
               className="img-fluid rounded"
               style={{ width: "18rem", height: "20rem", objectFit: "cover" }}
