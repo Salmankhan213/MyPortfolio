@@ -12,7 +12,7 @@ const About = () => {
         <div className="row">
           <div className="col-md-3 mb-4 mb-md-0 offset-1">
             <img
-              src="/public/Profile2.png"
+              src="/public/profileImg.png"
               alt=""
               className="img-fluid rounded"
               style={{ width: "18rem", height: "20rem", objectFit: "cover" }}

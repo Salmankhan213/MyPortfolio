@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className="bg-black text-white text-center hero-section">
       <img
-        src='/public/Profile2.png'
+        src='/public/profileImg.png'
         alt=""
         className="mx-auto mb-8 rounded-circle"
         style={{
