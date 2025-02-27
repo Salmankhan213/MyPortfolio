@@ -40,8 +40,8 @@ const Hero = () => {
         I specialize in building modern and responsive web applications.
       </p>
       <div className="mt-4">
-        <a href='/CV.pdf.pdf'
-        download='/CV.pdf.pdf'
+        <a href='/MYCV.pdf'
+        download='/MYCV.pdf'
           className="btn me-3"
           style={{
             background: 'linear-gradient(to right, #4ade80, #3b82f6)',
@@ -56,7 +56,7 @@ const Hero = () => {
         >
           Download CV
         </a>
-        <a href='https://drive.google.com/file/d/1xR9jkt5AmINm9fi4MVWQR8bSBHEN9xU5/view?usp=drive_open' 
+        <a href='https://drive.google.com/file/d/17EjmDk7Kyvp2WS8ni8fA-YqaZfY-c3Uw/view?usp=sharing' 
         target='_blank'
           className="btn"
           style={{
