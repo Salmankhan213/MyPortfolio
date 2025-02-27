@@ -1,0 +1,36 @@
+footer {
+    background-color: black;
+    color: white;
+    padding: 4rem 0;
+  }
+  
+  .btn-gradient {
+    background: linear-gradient(to right, #4ade80, #3b82f6);
+    border: none;
+    color: white;
+    padding: 0.2rem 1rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .btn-gradient:hover {
+    transform: scale(1.05);
+  }
+  
+  .hover-white {
+    transition: color 0.3s ease;
+  }
+  
+  .hover-white:hover {
+    color: white !important;
+  }
+  
+  .form-control {
+    background-color: #333;
+    border: 1px solid #444;
+    color: white;
+  }
+  
+  .form-control:focus {
+    border-color: #4ade80;
+    box-shadow: 0 0 0 0.25rem rgba(74, 222, 128, 0.25);
+  }

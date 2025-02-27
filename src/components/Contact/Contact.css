@@ -1,0 +1,66 @@
+/* Contact Section */
+.contact-section {
+    padding: 4rem 0;
+  }
+  
+  /* Contact Heading */
+  .contact-heading {
+    font-size: 1.75rem;
+    color: white;
+  }
+  
+  /* Contact Detail */
+  .contact-detail {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-detail .icon {
+    color: #4ade80; /* Green color for icons */
+    font-size: 1.25rem;
+    margin-right: 0.75rem;
+  }
+  
+  .contact-detail a,
+  .contact-detail span {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .contact-detail a:hover {
+    color: #3b82f6; /* Blue color on hover */
+  }
+  
+  /* Contact Form */
+  .contact-form .form-control {
+    background-color: #333;
+    border: 1px solid #444;
+    color: white;
+    padding: 0.75rem;
+  }
+  
+  .contact-form .form-control:focus {
+    border-color: #4ade80;
+    box-shadow: 0 0 0 0.25rem rgba(74, 222, 128, 0.25);
+  }
+  
+  .contact-form .form-label {
+    color: white;
+    font-weight: 500;
+  }
+  
+  /* Gradient Button */
+  .btn-gradient {
+    background: linear-gradient(to right, #4ade80, #3b82f6);
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: transform 0.3s ease;
+  }
+  
+  .btn-gradient:hover {
+    transform: scale(1.05);
+  }

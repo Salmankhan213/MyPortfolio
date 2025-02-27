@@ -1,0 +1,86 @@
+.navbar {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 0 2rem;
+    position: fixed !important;
+    z-index: 100 !important;
+  }
+  
+  @media (min-width: 768px) {
+    .navbar {
+      padding: 0 4rem; 
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .navbar {
+      padding: 0 6rem; 
+    }
+  }
+  
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0.5rem 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      justify-content: space-between;
+    }
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem; 
+    font-weight: bold;
+    display: none; 
+  }
+  
+  @media (min-width: 768px) {
+    .navbar-brand {
+      display: inline; 
+    }
+  }
+  
+ 
+  .navbar-links {
+    display: flex;
+    gap: 1.5rem; 
+  }
+  
+  .navbar-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-links a:hover {
+    color: #9ca3af; 
+  }
+  
+
+  .navbar-button {
+    background: linear-gradient(to right, #4ade80, #3b82f6); 
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem; 
+    border-radius: 9999px; 
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    display: none;
+  }
+  
+  .navbar-button:hover {
+    transform: scale(1.05); 
+  }
+  
+  @media (min-width: 768px) {
+    .navbar-button {
+      display: inline; /* Equivalent to md:inline */
+    }
+  }
